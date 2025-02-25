@@ -1,3 +1,4 @@
+/* Style for the rest of the webpage */
 body{
   color: #40514E;
     margin:0 ;
@@ -23,6 +24,7 @@ h2{
 h3{
   color:#11999E;
   font-family:'Montserrat', sans-serif;
+  padding-bottom: 30px;
 }
 
 p{
@@ -158,10 +160,13 @@ hr{
 }
 
 .bottom-container{
-  height: 100px;
+  height: auto;  /* Adjusts to content */
   background-color: #66BFBF;
-  margin: 50px 0 0 0;
-  padding: 50px 0 20px;
+  margin: 0;  /* Removes the gap */
+  padding: 20px 0;  /* Keeps spacing inside */
+  position: static;  /* Sticks it to the bottom */
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-link{
